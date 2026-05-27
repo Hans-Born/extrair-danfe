@@ -1,19 +1,3 @@
-"""
-Extrator de DANFE / NF-e
-========================
-Sobe um Streamlit local, você joga os PDFs lá, e ele devolve o número
-da nota e a quantidade do quadro de transporte numa tabela exportável.
-
-Pré-requisitos:
-    pip install pymupdf pandas openpyxl streamlit
-
-Rodando:
-    streamlit run danfe_extractor.py
-
-Se preferir só pelo terminal (sem interface):
-    python danfe_extractor.py nota1.pdf nota2.pdf
-"""
-
 from __future__ import annotations
 
 import io
