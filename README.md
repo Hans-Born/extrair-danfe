@@ -1,4 +1,4 @@
-# Extrator de DANFE / NF-e
+# Extrair de DANFE / NF-e
 
 Programa Python que lê PDFs de DANFE e extrai o **número da nota fiscal** e a **quantidade** do quadro de transporte. Roda como app web (Streamlit) ou direto pelo terminal.
 
