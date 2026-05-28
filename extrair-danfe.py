@@ -7,7 +7,7 @@ from dataclasses import dataclass
 from pathlib import Path
 from typing import Iterable
 
-import fitz  # PyMuPDF
+import fitz 
 import pandas as pd
 
 @dataclass
