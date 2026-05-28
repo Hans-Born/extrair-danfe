@@ -1,3 +1,5 @@
+Precisa dessas 4 bibliotecas
+
 streamlit
 pymupdf
 pandas
