@@ -200,8 +200,8 @@ def montar_dataframe(resultados: list[ResultadoDanfe]) -> pd.DataFrame:
 def app_streamlit() -> None:
     import streamlit as st
 
-    st.set_page_config(page_title="Extrator DANFE", page_icon="📄", layout="centered")
-    st.title("📄 Extrator de DANFE / NF-e")
+    st.set_page_config(page_title="Extrair DANFE", page_icon="📄", layout="centered")
+    st.title("📄 Extrair de NF-e")
     st.write("Importe os PDFs e o app extrai o **Nº da Nota** e a **Quantidade** do quadro de transporte.")
 
     arquivos = st.file_uploader(
